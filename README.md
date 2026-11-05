@@ -1,6 +1,26 @@
-# NoteSync: Offline-First Note-Taking Application
+# 📝 NoteSync — Offline-First Note-Taking App
 
-> **Production-grade offline-first architecture** built with **React**, **Redux Toolkit**, **Dexie.js (IndexedDB)**, **Node.js/Express**, and **MongoDB**, featuring **Request Squashing**, **Batch Synchronization**, and **Last-Write-Wins (LWW) Conflict Resolution**.
+> A modern Apple Notes–inspired note-taking app that works **fully offline**. Notes save instantly to your browser, then sync automatically to the cloud when you're back online. No data loss. No waiting.
+
+![Tech Stack](https://img.shields.io/badge/React-18-blue?logo=react) ![Express](https://img.shields.io/badge/Express-4-black?logo=express) ![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-green?logo=mongodb) ![IndexedDB](https://img.shields.io/badge/Dexie.js-IndexedDB-orange) ![Redux](https://img.shields.io/badge/Redux-Toolkit-purple?logo=redux)
+
+---
+
+## ✨ Features
+
+- 📂 **Folders** — Organize notes into custom folders
+- 📌 **Pin notes** — Keep important notes at the top
+- ✅ **Interactive checklists** — Click to check/uncheck items
+- 🌙 **Dark mode** — Easy on the eyes
+- 🔍 **Live search** — Filter notes as you type
+- 🖼️ **Image attachments** — Attach photos to notes
+- 📶 **Offline-first** — Works with no internet, syncs when back online
+- 🔄 **Auto-sync** — Changes push to server automatically in the background
+- ⚡ **Conflict resolution** — Last-Write-Wins keeps your data consistent
+
+---
+
+> **For developers:** Production-grade offline-first architecture built with **React**, **Redux Toolkit**, **Dexie.js (IndexedDB)**, **Node.js/Express**, and **MongoDB**, featuring **Request Squashing**, **Batch Synchronization**, and **Last-Write-Wins (LWW) Conflict Resolution**.
 
 ---
 
