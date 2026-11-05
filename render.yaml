@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: notesync
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false   # you'll paste this from MongoDB Atlas
+    autoDeploy: true
